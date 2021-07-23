@@ -12,4 +12,4 @@ const isHtml = path => {
 
 }
 
-console.log(isHtml(path));
+ console.log(isHtml(path));

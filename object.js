@@ -1,8 +1,8 @@
 const workers = [
-  {name:"John", salary: 500},
-  {name:"Mike", salary: 1300},
-  {name:"Linda", salary: 1500},
-  {name:"Mary", salary: 300},
+  {"name":"John", "salary": 500},
+  {"name":"Mike", "salary": 1300},
+  {"name":"Linda", "salary": 1500},
+  {"name":"Mary", "salary": 300},
 
 ];
 
@@ -17,8 +17,6 @@ const getWorthyWorkers = workersArr => {
       worthyWorkers.push(currentWorker.name);
     }
   }
-
-
 
   return worthyWorkers;
 
