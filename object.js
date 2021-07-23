@@ -10,7 +10,7 @@ const getWorthyWorkers = workersArr => {
 
   const worthyWorkers = [];
 
-  for(let i = 0; i < workersArr.lenght; i++) {
+  for(let i = 0; i < workersArr.length; i++) {
     const currentWorker = workersArr[i];
 
     if (currentWorker.salary > 1000) {
